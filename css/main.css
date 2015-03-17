@@ -1,0 +1,174 @@
+/* Structure */
+#wrapper {
+    background:#22282c;
+    padding:0 0 94px 0;
+}
+#main {
+    background:#fff;
+}
+.leader div, .section_info div {
+	margin:0 10em; 
+	max-width:1060px;
+	padding:0;
+}
+.section_info {
+	clear:both;
+}
+.section_info .section_wrap {
+	margin:0;
+	padding:10px 0;
+	width:900px;
+	max-width:900px;
+	background:url(../images/growthchart_white.gif) repeat-y 875px 0px;
+	overflow:hidden;
+}
+.section_info.alt .section_wrap {
+	background:url(../images/growthchart_grey.gif) repeat-y 875px 0px;
+}
+.section_info .info {
+	float:left;
+	margin:0;
+	padding:60px 0;
+	width:700px;
+}
+.section_info .timeline {
+	float:right;
+	margin:0;
+	padding:0;
+	width:200px;
+}
+
+/* Text */
+h1 span {
+	font-size:.5em;
+	font-weight: normal;
+}
+.section_info h2 {
+	font-size:15pt;
+}
+.timeline p {
+	/* font-size:20pt; 20pt in specifications but with helvetica font too big so adjust when change to Museo */
+	font-size:10pt;
+}
+.timeline p strong {
+	color:#39444c;
+}
+
+/* Sections */
+.info .list {
+	margin:0 0 0 60px;
+	width:600px;
+}
+.info .list div {
+	margin:0;
+	padding:15px 0 0 0;
+	overflow:hidden;
+	border-bottom:2px solid white;
+}
+.info .list div.last {
+	border:none;
+}
+.info .list h3 {
+	float:left;
+	padding:0 40px 20px 0;
+	width:150px;
+	clear:right;
+}
+.info .list p {
+	float:right;
+	width:410px;
+}
+.alt {
+	background-color:#f3f1f0;
+}
+.timeline p {
+	padding:60px 45px 30px 40px;
+	text-align:right;
+}
+.leader {
+	padding:95px 140px 0 0;
+	background:#d6e7ec url(../images/brdr_blue.gif) repeat-x bottom left;
+}
+.leader div {
+	background: url(../images/baby.png) no-repeat right bottom;
+	padding-bottom:70px;
+}
+.leader h2, .leader p, .info h2, .info p {
+	width:360px;
+}
+#learn {
+	background:url(../images/brdr_grey.gif) repeat-x bottom left;
+}
+#learn a {
+	padding-right:15px;
+	background:url(../images/arrow_down.gif) no-repeat center right;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:10pt;
+	color:#8f9396;
+}
+#different .info {
+	background:url(../images/crossword.gif) no-repeat center right;
+}
+#accidental {
+	background:#f3f1f0 url(../images/squiggles.gif) no-repeat top left;
+}
+#accidental, #accidental.section_info .section_wrap {
+	padding:0;
+}
+#accidental.section_info .info {
+	padding:60px 0 20px 0;
+}
+#accidental.section_info .info h2, #accidental.section_info .info p {
+	margin-left:370px;
+	width:350px;
+}
+#unleash .info {
+	background:url(../images/symphony.gif) no-repeat center right;
+}
+#different .timeline p {
+	background:url(../images/kid_6.gif) no-repeat 167px 60px;
+}
+#accidental .timeline p {
+	padding-top:70px;
+	background:url(../images/kid_8.gif) no-repeat 162px 60px;
+}
+#unleash .timeline p {
+	padding-top:70px;
+	background:url(../images/kid_10.gif) no-repeat 157px 60px;
+}
+#implement .timeline p {
+	padding-top:80px;
+	background:url(../images/kid_12.gif) no-repeat right 60px;
+}
+#quote {
+	background:#7b98a0 url(../images/bgd_bluewhite.gif) repeat-x top left;
+}
+#quote div {
+	background:url(../images/gillian_g.png) no-repeat 437px 0px;
+}
+#quote p {
+	padding:120px 0 35px 0;
+	width:380px;
+	color:#fff;
+}
+#services {
+	padding:60px 0 0 0;
+}
+#services div {
+}
+#services div div {
+	background:none;
+	width:210px;
+	margin:0 35px 60px 0;
+	float:left;
+}
+#services div > div:first-of-type {
+	margin-left:60px;
+}
+
+
+
+
+
+

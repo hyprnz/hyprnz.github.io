@@ -1,0 +1,153 @@
+/*
+Theme Name: Hypr
+Theme URI:
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.md
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+:focus {/* remember to define focus styles! */
+    outline: 0;
+}
+body {
+    background: #fff;
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+table {/* tables still need 'cellspacing="0"' in the markup */
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+a img {
+    border: 0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Base styles */
+body {
+    font-family: MuseoSansRounded-300, Helvetica, Arial, Sans-Serif;
+}
+h1 {
+    /* font-size:48pt; 48pt in specifications but with helvetica font too big so adjust when change to Museo */
+    font-size:40pt;
+    font-weight:bold;
+    color:#7d9aa2;
+    line-height:.8em;
+    margin:0 0 1em 0;
+}
+h2, h3 {
+    line-height:1.3em;
+    margin:0 0 1em 0;
+    font-weight:normal;
+}
+h2 {
+    /* font-size:37pt; 37pt in specifications but with helvetica font too big so adjust when change to Museo */
+    font-size:20pt;
+    color:#39444c;
+}
+h3 {
+    font-size:11pt;
+    color:#39444c;
+}
+p {
+    line-height:1.4em;
+    margin:0 0 1em 0;
+    /* font-size:24pt; 24pt in specifications but with helvetica font too big so adjust when change to Museo */
+    font-size: 11pt;
+    color:#8f9396;
+}
+.button {
+    padding:10px 0 10px 7px;
+    background:url(../images/btn_left.gif) no-repeat top left;
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+.button span {
+    padding:10px 0 10px 5px;
+    background:url(../images/btn_middle.gif) repeat-x top left;
+}
+.button span span {
+    padding:10px 7px 10px 0;
+    background:url(../images/btn_right.gif) no-repeat top right;
+}
+
+/* Navigation */
+.navigation {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width:100%;
+    background:#f3f1f0;
+    padding:20px 0 20px 0;
+    border: 1px #8f9396;
+    border-bottom-style: dotted;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+}
+.navigation ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.8em;
+}
+.navigation ul li{
+    float:left;
+    margin:0 30px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color:#8f9396;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.navigation ul li a:hover{
+    text-decoration: underline;
+}
+.navigation ul li a:active{
+    text-decoration: underline;
+}
+
+/* Footer */
+.section_action div {
+      margin:0 10em;
+      max-width:1060px;
+      padding:0;
+}
+.section_action {
+    padding:25px 0 10px 0;
+    text-align:center;
+}
+

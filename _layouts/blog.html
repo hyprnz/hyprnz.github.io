@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font.css"/>
+
+    <link rel="stylesheet" media="only screen and (max-device-width: 768px)" href="../css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (max-width: 468px)" href="../css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)" href="../css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (min-width: 469px) and (max-width: 1024px)" href="../css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (min-width: 1025px)" href="../css/blog.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div id="main">
+
+            {% include navigation.html %}
+
+
+            <div class="section_blog">
+
+                <ul>
+                    {% for post in site.posts %}
+                    <li>
+                        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                        <p> {{ post.date | date: "%-d %B %Y" }} | {{ post.author }}</p>
+                        {{ post.content}}
+                    </li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+
+            {% include footer.html %}
+
+        </div>
+    </div>
+
+    {% include analytics.html %}
+
+</body>
+</html>
