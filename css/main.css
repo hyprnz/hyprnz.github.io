@@ -86,12 +86,17 @@ h1 span {
 	text-align:right;
 }
 .leader {
-	padding:95px 140px 0 0;
+	padding:100px 140px 0 0;
 	background:#d6e7ec url(../images/brdr_blue.gif) repeat-x bottom left;
 }
 .leader div {
-	background: url(../images/baby.png) no-repeat right bottom;
 	padding-bottom:70px;
+}
+.inner{
+    background-image: url(../images/baby-ipad.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 }
 .leader h2, .leader p, .info h2, .info p {
 	width:360px;

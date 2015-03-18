@@ -60,7 +60,6 @@ body {
     font-family: MuseoSansRounded-300, Helvetica, Arial, Sans-Serif;
 }
 h1 {
-    /* font-size:48pt; 48pt in specifications but with helvetica font too big so adjust when change to Museo */
     font-size:40pt;
     font-weight:bold;
     color:#7d9aa2;
@@ -73,7 +72,6 @@ h2, h3 {
     font-weight:normal;
 }
 h2 {
-    /* font-size:37pt; 37pt in specifications but with helvetica font too big so adjust when change to Museo */
     font-size:20pt;
     color:#39444c;
 }
@@ -84,10 +82,22 @@ h3 {
 p {
     line-height:1.4em;
     margin:0 0 1em 0;
-    /* font-size:24pt; 24pt in specifications but with helvetica font too big so adjust when change to Museo */
     font-size: 11pt;
     color:#8f9396;
 }
+#values-columns span {
+    line-height:1.1em;
+    margin:0 0 0 0;
+    font-size: 13pt;
+    color:#8f9396;
+}
+.values ul{
+    line-height:1.1em;
+    margin:0 0 0 0;
+    font-size: 13pt;
+    color:#8f9396;
+}
+
 .button {
     padding:10px 0 10px 7px;
     background:url(../images/btn_left.gif) no-repeat top left;
@@ -111,12 +121,12 @@ p {
     left: 0px;
     z-index: 999;
     width:100%;
-    background:#f3f1f0;
     padding:20px 0 20px 0;
     border: 1px #8f9396;
     border-bottom-style: dotted;
     opacity: 0.9;
     filter: alpha(opacity=50);
+    background-color:#f3f1f0;
 }
 .navigation ul{
     margin-left: auto;
@@ -139,6 +149,13 @@ p {
 .navigation ul li a:active{
     text-decoration: underline;
 }
+
+.inner img{
+    width:250px;
+    height:auto;
+    padding-bottom: 20px;
+}
+
 
 /* Footer */
 .section_action div {
