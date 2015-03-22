@@ -6,11 +6,11 @@ author: Gareth Evans
 
 Digital disruption is here, one-third of Australia’s economy faces a [‘short fuse, big bang’](http://www2.deloitte.com/content/dam/Deloitte/au/Documents/Building%20Lucky%20Country/deloitte-au-consulting-digital-disruption-whitepaper-0912.pdf) scenario in the near future. Technology is shaping society as fast as society is shaping technology. Application Programming Interfaces (APIs) are emerging as a way to both support rapid change and as a way to create it. 
 
-## So what is an API?
+## So what is an API? 
 
 An API enables one application to talk to another application over the internet.
 
-The term API has been around for a long time, although its most recent incarnation is arguably its most interesting. A modern API is a way to safely expose digital resources to be consumed internally, by trusted partners or as an open API. Exposing data creates many more opportunities than exposing applications which have a single purpose created by the imagination of a single company.
+The term API has been around for a long time, although its most recent incarnation is arguably its most interesting. A modern API is a way to safely share digital resources to be consumed internally, by trusted partners or as an open API. Exposing digital resources creates many more opportunities than exposing applications which have a single purpose thought up by a single company.
 
 ## Why do you need an API strategy?
 
@@ -19,21 +19,21 @@ There are currently 15B internet connected devices in 2015, there will be 40B in
 
 > In terms of phases or eras, the Cisco® Internet Business Solutions Group (IBSG) believes that we are currently experiencing the Internet of Things (IoT), where millions of new devices are regularly being connected to the Internet. As these “things” add capabilities like context awareness, increased processing power, and energy independence, and as more people and new types of information are connected, we will quickly enter the Internet of Everything (IoE), where things that were silent will have a voice. - [Cisco](http://share.cisco.com/IoESocialWhitepaper/#/0/2)
 
-Many companies are struggling to support their existing applications, something has to change in the way we architect for connectivity. APIs that adhere to the principles of a REST based architectural style offer promise in that a single API is capable of supporting many different digital channels.
+Many companies are struggling to support their existing applications, something has to change in the way we architect for connectivity. APIs that adhere to the principles of a REST based architectural style offer promise in that a single API is capable of supporting many different digital channels at lower cost.
 
 ### Reduce integration costs
-The IoT and IoE is a new problem requiring a new way of thinking. Existing architectures will not solve this problem. With so many devices and operating systems to support APIs must be designed and developed with the ability to scale, be fast to change and encourage adoption and reuse. Cacheability becomes important with many devices and channels, moving this to the network using HTTP is a well known solution utilised by APIs. Having many layers between clients and persistence creates overheads and delays. Modern APIs move closer to the persistence layer avoiding accidental complexity and minimising essential complexity. Applications developed to replace legacy systems commonly see a 10x order of magnitude reduction in lines of code for the same functionality, with added benefits including performance and maintainabilty.
+The IoT and IoE is a new problem requiring a new way of thinking. Existing architectures will not solve this problem. With so many devices and operating systems to support, APIs must be designed and developed with the ability to scale when successful. APIs must also be designed with affordance in mind, along with the ability to easily test, deploy and iteratively and incrementally change. Cacheability becomes important with many devices and channels, moving this to the network using HTTP is a well known solution utilised by APIs. Having many layers between clients and persistence creates overheads and delays. Modern APIs move closer to the persistence layer avoiding accidental complexity and minimising essential complexity. Applications developed to replace legacy systems commonly see a 6x to 10x order of magnitude reduction in lines of code for the same functionality, with added benefits including performance and maintainabilty.
 
 > The Internet is no-thing at all. At its base the Internet is a set of agreements, which the geeky among us (long may their names be hallowed) call “protocols,” but which we might, in the temper of the day, call “commandments.” - [Cluetrain](https://medium.com/backchannel/internet-under-fire-gets-new-manifests-207a922b459e)
 
-By building APIs that work the way the internet works we can leverage many of its advantages.
+By building APIs that work the way the internet works we have confidence that we are using patterns and protocols that can be understood by developers, accepted by servers and will perform at scale.
 
-Currently many APIs have their own special snowflake schemas that are specific to just that one API. Standard MIME Media Types such as Collection+JSON allow clients to reuse code within an API and potentially across APIs. MIME Media Types can be registered with [IANA](http://www.iana.org/assignments/media-types/media-types.xhtml) for others to understand and reuse. 
+Currently many APIs have their own special snowflake schemas that are specific to just that one API. Standard MIME Media Types such as [Collection+JSON](http://amundsen.com/media-types/collection/) allow clients to reuse code within an API and potentially across APIs. MIME Media Types can be registered with [IANA](http://www.iana.org/assignments/media-types/media-types.xhtml) for others to understand and reuse.
 
-Application semantics are the domain specific data fields within a standard MIME Media Type such as Collection+JSON. Whilst we can write one parser for all Collection+JSON data, application semantics are unique to the application. This is the semantic gap. Well designed APIs attempt to reduce the semantic gap which leads to less code having to be written.
+Application semantics are the domain specific data fields that may still exist in a standard MIME Media Type. Whilst we only need to write one parser for a standard MIME Media Type, application semantics are unique to the application. This is the semantic gap. Well designed APIs reduce the semantic gap through the use of standard MIME Media Type which reduces complexity and cost.
 
 ### An API can be an R&D lab for your organisation
-Safely exposing data with an API can turn your API into an R&D lab. This can be a lab that you use to experiment with different applications, testing new ideas in the market, or it can be used as an indirect channel for innovation. By exposing an API externally, individuals and other companies can innovate on your behalf. Many large companies struggle to innovate due to slow internal processes and lack of an innovation mindset, where more nimble startups may excel. One way to combat digital disruption is to expose an API and let others innovate on your behalf. This allows companies to share risk and reward with smaller companies in a very controlled way. Invite others to build something with your API, then call them if it starts getting popular.
+Safely exposing digital resources with an API creates an R&D lab for your organisation. This can be a lab that you use to experiment with different applications, testing new ideas in the market, or it can be used as an indirect channel for innovation. Open APIs allow individuals and other companies to innovate on your behalf. Many large companies struggle to innovate due to slow internal processes and lack of an innovation mindset, where more nimble startups may excel. One way to join the digital disrupters is to create an open API and let others innovate on your behalf. This allows larger companies to share risk and reward with smaller companies in a very controlled way. Invite others to build something with your API, then call them if it starts getting popular.
 
 ### Composability is the key to speed
 
@@ -45,16 +45,22 @@ As the number of APIs grows so does the opportunity to combine them in different
 
 >Five key drivers of digital disruption – wastage of resources, redundancy, complexity, limited access and broken trust. - [Rachael Botsman](http://www.slideshare.net/capgemini/igital-transformation-review-7)
 
-APIs are one of the vehicles entrepreneurs are using to exploit these drivers by reducing waste, cutting out the middle person, opening access to data and improving customer experience and trust. APIs can be a foundation for innovation, as companies are able to expose their data for others to combine in diverse and innovative ways.
+APIs are one of the vehicles entrepreneurs are using to exploit these drivers by reducing waste, cutting out the middle person, opening access to data and improving customer experience and trust through innovative products. APIs can be a foundation for innovation, as companies are able to share their digital resources for others to combine in diverse and innovative ways.
 
-APIs don’t have to be exposed externally to be of benefit. Trusted and open APIs allow businesses to expose their data to other companies. Proprietary APIs allow businesses to expose data internally. Both can reduce the semantic gap by using media types that can be consumed by many clients rather than traditionally exposing each bit of data with a unique interface requiring more code to be written.
+APIs don’t have to be shared externally to be of benefit. Whilst trusted and open APIs allow businesses to share digital resources with other companies, proprietary APIs allow businesses to share digital resources internally. Sharing digital resources internally through an API allows for the development of small focused internal applications with less expense and greater speed. They may also combine digital resources from different internal APIs or mash them up with external APIs from other companies to solve internal business problems.
 
 ### The value of exposing data outweighs the risks
 
-APIs can be private, exposed to trusted partners or completely open. Private APIs offer many benefits, yet open APIs have the added benefit of indirect innovation. For risk averse companies this is a dilemma. How do you expose your most valuable asset, your data, in a way that is safe? 
+APIs can be private, shared with trusted partners or completely open. Private APIs offer many benefits, yet open APIs have the added benefit of indirect innovation. For risk averse companies this is a dilemma. How do you expose your most valuable assets, your digital resources, in a way that is safe?
 
 REST based architectural styles promote having a single front door to the API. Rather than exposing a number of URLs as endpoints that must all be secured, a single front door is easier to defend than many side doors. Even though all access comes through the front door, the first room you see may be different depending on who or what you are.
 
+Companies not considering sharing digital resources are at greater risk of a short fuse big bang scenario happening to them and if it does they will be less prepared to respond.
+
 ## Summary
 
-An API is like a network of data. The power of networks is in the number of connections. Metcalfe’s law states that the value of a network increases proportionately to the square of the number of users. If companies continue to act like hubs then they do not exploit the additional connectivity that is possible. As Mike Amundsen said at APIDays in Sydney recently - Be a node not a hub. Data without an API is like a computer without the Internet.
+An API should be like a network of digital resources, where the power of network is in the number of connections. [Metcalfe’s law](http://en.wikipedia.org/wiki/Metcalfe%27s_law) states that the value of a network increases proportionately to the square of the number of users. If companies continue to act like hubs then they can not exploit the additional connectivity and value available through APIs. 
+
+![Growth of APIs]({{ site.url }}/assets/node-not-hub.png)
+
+>Be a node not a hub - Mike Amundsen
