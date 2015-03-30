@@ -71,3 +71,7 @@ h3{
     padding-top: 20px;
     clear:both;
 }
+
+.section_action div{
+    margin: 0;
+}

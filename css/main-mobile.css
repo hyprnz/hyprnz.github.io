@@ -60,6 +60,7 @@ h1 span {
 }
 
 .section_action div{
+    margin: 0;
     padding-top: 20px;
     text-align: center;
 }
