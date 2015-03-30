@@ -7,7 +7,12 @@
 
     <link rel="stylesheet" type="text/css" href="/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/css/font.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+
+    <link rel="stylesheet" media="only screen and (max-device-width: 768px)" href="/css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (max-width: 468px)" href="/css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)" href="../css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (min-width: 469px) and (max-width: 1024px)" href="/css/blog-ipad.css">
+    <link rel="stylesheet" media="only screen and (min-width: 1025px)" href="/css/blog.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -26,8 +31,9 @@
 
             {{ content }}
 
-            <div>
-                <a href="https://twitter.com/intent/tweet?screen_name=HyprNZ&text=http://hypr.nz{{page.url}}" class="twitter-mention-button" data-size="large" data-related="HyprNZ">Tweet to @HyprNZ</a>
+            <div class="twitter">
+                <a href="https://twitter.com/intent/tweet?screen_name={{ page.twitter }}&text=@HyprNZ http://hypr.nz{{page.url}}" class="twitter-mention-button" data-size="large" data-related="HyprNZ">Tweet to @{{ page.twitter }}</a>
+                <a href="https://twitter.com/{{ page.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter }}</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
 

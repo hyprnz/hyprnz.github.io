@@ -2,6 +2,7 @@
 title: Why you need an API first strategy
 layout: post
 author: Gareth Evans
+twitter: gareth__evans
 ---
 
 Digital disruption is here. One-third of Australia’s economy faces a [‘short fuse, big bang’](http://www2.deloitte.com/content/dam/Deloitte/au/Documents/Building%20Lucky%20Country/deloitte-au-consulting-digital-disruption-whitepaper-0912.pdf) scenario in the near future. Technology is shaping society as fast as society is shaping technology. Application Programming Interfaces (APIs) are emerging as a way to both support rapid change and as a way to create it. 
