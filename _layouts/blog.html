@@ -29,9 +29,14 @@
                 <ul>
                     {% for post in site.posts %}
                     <li>
-                        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                        <p> {{ post.date | date: "%-d %B %Y" }} | {{ post.author }}</p>
-                        {{ post.content}}
+                        <article itemscope itemtype="http://schema.org/BlogPosting">
+                            <h1 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                            <footer>
+                                <p><time itemprop="datePublished">{{ post.date | date: "%-d %B %Y" }}</time> | <a rel="author" href="https://twitter.com/{{post.twitter}}">{{ post.author }}</a></p>
+                            </footer>
+
+                            {{ post.content}}
+                        </article>
                     </li>
                     {% endfor %}
                 </ul>
