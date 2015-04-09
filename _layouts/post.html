@@ -45,6 +45,12 @@
                 </div>
 
                 <footer>
+                    <div class="filed-under">
+                        Filed under:
+                        <span itemprop="genre">{{page.genre}}</span>,
+                        <span itemprop="keywords">{{page.keywords}}</span>
+                    </div>
+
                     <div class="twitter">
                         <a href="https://twitter.com/intent/tweet?screen_name={{ page.twitter }}&text=@HyprNZ http://hypr.nz{{page.url}}" class="twitter-mention-button" data-size="large" data-related="HyprNZ">Tweet to @{{ page.twitter }}</a>
                         <a href="https://twitter.com/{{ page.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter }}</a>

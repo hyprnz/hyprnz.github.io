@@ -3,6 +3,8 @@ title: Why you need an API first strategy
 layout: post
 author: Gareth Evans
 twitter: gareth__evans
+genre: API
+keywords: API first, scalepocalypse, R&D lab, composability, private API, trusted API, open API, digital disruption, network of data, Metcalfe’s law, digital resources, internet of things, software architecture
 ---
 
 Digital disruption is here. One-third of Australia’s economy faces a [‘short fuse, big bang’](http://www2.deloitte.com/content/dam/Deloitte/au/Documents/Building%20Lucky%20Country/deloitte-au-consulting-digital-disruption-whitepaper-0912.pdf) scenario in the near future. Technology is shaping society as fast as society is shaping technology. Application Programming Interfaces (APIs) are emerging as a way to both support rapid change and as a way to create it. 
@@ -51,7 +53,7 @@ APIs are one of the vehicles entrepreneurs are using to create digital disruptio
 
 APIs don’t have to be shared externally to be of benefit. Sharing digital resources internally through an API allows for the development of small focused internal applications with less expense and greater speed. They may also combine digital resources from different internal APIs or mash them up with external APIs from other companies to solve internal business problems.
 
-### The value of exposing data outweighs the risks
+### The value of exposing digital resources outweighs the risks
 
 APIs can be private, shared with trusted partners or completely open. Private APIs offer many benefits, yet open APIs have the added benefit of indirect innovation. For risk averse companies this is a dilemma. How do you expose your most valuable assets, your digital resources, in a way that is safe?
 
