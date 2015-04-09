@@ -29,10 +29,18 @@
                 <h1 itemprop="name">{{ page.title }}</h1>
 
                 <footer>
-                    <p><time itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time> | <a rel="author" href="https://twitter.com/{{post.twitter}}">{{ page.author }}</a></p>
+                    <p><time itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time> |
+                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">
+                                <a itemprop="url" rel="author" href="https://twitter.com/{{page.twitter}}">{{ page.author }}</a>
+                            </span>
+                        </span>
+                    </p>
                 </footer>
 
-                {{ content }}
+                <div itemprop="articleBody">
+                    {{ content }}
+                </div>
 
                 <footer>
                     <div class="twitter">
