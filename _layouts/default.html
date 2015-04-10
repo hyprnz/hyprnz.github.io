@@ -19,13 +19,15 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="main">
+		<div id="main" itemscope itemtype="http://schema.org/Organization">
 
             {% include navigation.html %}
 
 			<div class="leader">
 				<div class="inner">
-                    <img src="images/hypr-logo-trim.png">
+                    <a itemprop="url" href="https://hypr.nz/">
+                        <img itemprop="logo" src="images/hypr-logo-trim.png">
+                    </a>
 					<h2>80&#37; less code<br />Software in days not months</h2>
 					<p>Long before Jac does a computer science degree, traditional ways of building software will be history. Along with all the businesses that stuck with them.</p>
 					<p><strong>So there.</strong></p>
@@ -41,8 +43,8 @@
 					<div class="section_wrap">
 						<div class="info">
 							<a name="aboutHYPR" />
-							<h2>So start doing things differently today. <br /> With HYPR.</h2>
-							<p>HYPR is a totally new method of operation in building software which unleashes your ability to anticipate, respond, ideate and innovate in super quick time. HYPR gives you the software and business agility you need to build sustainable, competitive relevance to your customers.</p>
+							<h2>So start doing things differently today. <br /> With <span itemprop="name">HYPR</span>.</h2>
+							<p itemprop="description">HYPR is a totally new method of operation in building software which unleashes your ability to anticipate, respond, ideate and innovate in super quick time. HYPR gives you the software and business agility you need to build sustainable, competitive relevance to your customers.</p>
 						</div>
 						<div class="timeline six">
 							<p><strong>When Jac's 6</strong><br />there'll be no accidental complexity</p>
