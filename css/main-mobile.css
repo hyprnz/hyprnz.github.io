@@ -42,7 +42,8 @@ h1 span {
 .leader p {
     width: 50%;
 }
-
+.leader #tagline{
+    width: 100%;}
 .section_info{
     padding: 5pt 5pt 5pt 5pt;
 }

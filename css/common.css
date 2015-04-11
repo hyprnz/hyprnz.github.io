@@ -178,3 +178,24 @@ p {
     padding-bottom: 20px;
 }
 
+.leader h1{
+    padding: 0 0 0 0;
+    margin: 0 0 -15px -1px;
+    font-family: NexaBlack;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+    font-size: 48pt;
+}
+.leader h1 a{
+    color: #7b98a1;
+    text-decoration: none;
+}
+.leader #tagline{
+    margin: 0 0 .6em 0;
+    color: #7b98a1;
+    font-size: 28pt;
+    letter-spacing: -0.08em;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
