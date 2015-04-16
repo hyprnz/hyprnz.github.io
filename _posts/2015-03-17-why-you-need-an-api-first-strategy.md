@@ -43,7 +43,7 @@ Safely exposing digital resources with an API, creates an [R&D lab](http://apiev
 
 According to the ProgrammableWeb, the number of publicly available APIs is [growing exponentially](http://www.programmableweb.com/api-research). 
 
-![Growth of APIs]({{ site.url }}/assets/chart-of-web-api-growth-from-2005-through-2013-source-programmablewebcom-2-638.jpg)
+![Graph showing growth of Web APIs since 2005](/assets/20150317/chart-of-web-api-growth-from-2005-through-2013-source-programmablewebcom-2-638.jpg)
 
 As the number of APIs grows so does the opportunity to combine them in different ways. This could be inter industry combinations or intra industry.  
 
@@ -65,6 +65,6 @@ Companies that do not consider sharing digital resources are at greater risk of 
 
 An API should be like a network of digital resources, where the power of the network is in the number of connections. [Metcalfe’s law](http://en.wikipedia.org/wiki/Metcalfe%27s_law) states that the value of a network increases proportionately to the square of the number of users. If companies continue to act like hubs then they can not exploit the additional connectivity and value available through APIs. 
 
-![Growth of APIs]({{ site.url }}/assets/node-not-hub.png)
+![Interconnected nodes versus an isolated hub](/assets/20150317/node-not-hub.png)
 
 >Be a node not a hub - [Mike Amundsen](http://www.slideshare.net/rnewton/scale-freeap-is)
