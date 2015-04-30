@@ -121,20 +121,18 @@ p {
     left: 0px;
     z-index: 999;
     width:100%;
-    padding:20px 0 20px 0;
+    padding:10px 0 0px 0;
     border: 1px #8f9396;
     border-bottom-style: dotted;
-    opacity: 0.9;
-    filter: alpha(opacity=50);
     background-color:#f3f1f0;
 }
-.navigation ul{
-    margin-left: auto;
-    margin-right: auto;
-    width: 21.8em;
-}
+/*.navigation ul{*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 21.8em;*/
+/*}*/
 .navigation ul li{
-    float:left;
+    float:right;
     margin:0 20px;
 }
 .navigation ul li a{
@@ -146,8 +144,40 @@ p {
 .navigation ul li a:hover{
     text-decoration: underline;
 }
-.navigation ul li a:active{
+.navigation ul li a:active {
     text-decoration: underline;
+}
+.navbar-fixed-top{
+    padding: 10px 0px 10px 0px;
+    -webkit-transition: padding 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: padding 0.3s;
+}
+
+.navbar-fixed-top.top-nav-collapse{
+    padding: 0px;
+    -webkit-transition: padding 1s; /* For Safari 3.1 to 6.0 */
+    transition: padding 1s;
+}
+.navbar-fixed-top .navbar-hypr a{
+    opacity: 0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
+}
+
+.navbar-fixed-top.top-nav-collapse .navbar-hypr a{
+    opacity: 0.7;
+    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 1s;
+}
+
+.navbar-hypr a{
+    float:left;
+    margin: 0px 0px 0px 10px;
+    font-family: NexaBlack;
+    font-weight: normal;
+    letter-spacing: -0.03em;
+    font-size: 26pt;
+    color: #7b98a1;
+    text-decoration: none;
 }
 
 .inner img{
@@ -198,4 +228,3 @@ p {
     opacity: 0.7;
     filter: alpha(opacity=70); /* For IE8 and earlier */
 }
-
