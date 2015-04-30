@@ -1,5 +1,6 @@
 ---
 title: Why you need an API first strategy
+description: What is an API and why do you need one? Gareth Evans talks about how Application Programming Interfaces support rapid change in a time of digital disruption.
 layout: post
 author: Gareth Evans
 twitter: gareth__evans
