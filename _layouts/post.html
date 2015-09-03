@@ -29,39 +29,43 @@
         {% include navigation.html %}
 
         <div class="section_blog">
-            <article itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="blog_post">
+                <article itemscope itemtype="http://schema.org/BlogPosting">
 
-                <h1 itemprop="name">{{ page.title }}</h1>
+                    <h1 itemprop="name">{{ page.title }}</h1>
 
-                <footer>
-                    <p><time itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time> |
-                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                            <span itemprop="name">
-                                <a itemprop="url" rel="author" href="https://twitter.com/{{page.twitter}}">{{ page.author }}</a>
+                    <footer>
+                        <p>
+                            <span class="blog_metadata"><time itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time> |
+                                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                    <span itemprop="name">
+                                        <a itemprop="url" rel="author" href="https://twitter.com/{{page.twitter}}">{{ page.author }}</a>
+                                    </span>
+                                </span>
                             </span>
-                        </span>
-                    </p>
-                </footer>
+                        </p>
+                    </footer>
 
-                <div itemprop="articleBody">
-                    {{ content }}
-                </div>
-
-                <footer>
-                    <div class="filed-under">
-                        Filed under:
-                        <span itemprop="genre">{{page.genre}}</span>,
-                        <span itemprop="keywords">{{page.keywords}}</span>
+                    <div itemprop="articleBody">
+                        {{ content }}
                     </div>
 
-                    <div class="twitter">
-                        <a href="https://twitter.com/intent/tweet?screen_name={{ page.twitter }}&text=@HyprNZ http://hypr.nz{{page.url}}" class="twitter-mention-button" data-size="large" data-related="HyprNZ">Tweet to @{{ page.twitter }}</a>
-                        <a href="https://twitter.com/{{ page.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter }}</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-                    </div>
-                </footer>
+                    <footer>
+                        <div class="filed-under">
+                            Filed under:
+                            <span itemprop="genre">{{page.genre}}</span>,
+                            <span itemprop="keywords">{{page.keywords}}</span>
+                        </div>
 
-            </article>
+                        <div class="twitter">
+                            <a href="https://twitter.com/intent/tweet?screen_name={{ page.twitter }}&text=@HyprNZ http://hypr.nz{{page.url}}" class="twitter-mention-button" data-size="large" data-related="HyprNZ">Tweet to @{{ page.twitter }}</a>
+                            <a href="https://twitter.com/{{ page.twitter }}" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @{{ page.twitter }}</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                        </div>
+                    </footer>
+
+                </article>
+            </div>
         </div>
 
         {% include footer.html %}

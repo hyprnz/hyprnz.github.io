@@ -30,29 +30,4 @@
     return text;
   }
 
-  // Setup Carousel
-  $('.carousel .item').each(function(){
-    var $this = $(this);
-    var $next = $this.next();
-
-    // If the last, duplicate the first
-    if (!$next.length) {
-      $next = $this.siblings(':first');
-    }
-    $next.children(':first-child').clone().appendTo($this);
-
-    if ($next.next().length>0) {
-      $next.next().children(':first-child').clone().appendTo($this);
-    }
-    else {
-      $this.siblings(':first').children(':first-child').clone().appendTo($this);
-    }
-  });
-
-  // Only start playing once the user has scrolled down to it
-  $('.carousel')
-    .carousel({interval: 5000, pause: false})
-    .carousel('pause')
-    .closest('section')
-      .one('mouseenter', function(){ $('.carousel').carousel('cycle'); });
 })(jQuery);

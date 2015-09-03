@@ -66,3 +66,7 @@ h1 span {
     text-align: center;
 }
 
+.navigation ul li{
+    float:right;
+    margin:0 5px;
+}

@@ -47,12 +47,27 @@ h1 span {
 	font-size:15pt;
 }
 .timeline p {
-	/* font-size:20pt; 20pt in specifications but with helvetica font too big so adjust when change to Museo */
 	font-size:10pt;
 }
 .timeline p strong {
 	color:#39444c;
 }
+/*a{
+	text-decoration: none;
+	color:#7d9aa2;
+	color:#51b6ab;
+	font-weight:bold;
+}
+a:visited{
+	text-decoration: none;
+	color:#7d9aa2;
+	color:#51b6ab;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration: underline;
+}*/
+
 
 /* Sections */
 .info .list {
@@ -153,7 +168,7 @@ h1 span {
 	background:url(../images/gillian_g.png) no-repeat 437px 0px;
 }
 #quote p {
-	padding:120px 0 35px 0;
+	padding:75px 0 35px 0;
 	width:380px;
 	color:#fff;
 }
