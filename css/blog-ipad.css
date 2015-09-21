@@ -92,3 +92,12 @@ h3{
 .section_action div{
     margin: 0;
 }
+
+.more {
+    margin-top: 40px;
+}
+
+.navigation ul li{
+    float:right;
+    margin:0 5px;
+}
