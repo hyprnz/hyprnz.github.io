@@ -33,6 +33,21 @@ h2{
 h3{
     font-size:15pt;
 }
+.section_blog a, .section_blog a:visited{
+    text-decoration: none;
+    color:#51b6ab;
+    font-weight:bold;
+}
+.section_blog a:hover{
+    text-decoration: underline;
+}
+h2 a, h2 a:visited{
+    text-decoration: none;
+    color:#7d9aa2;
+}
+.clear {
+    clear:both;
+}
 
 /* Sections */
 .values{
