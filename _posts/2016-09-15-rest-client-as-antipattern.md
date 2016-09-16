@@ -1,12 +1,13 @@
 ---
 title: Implementing hypermedia APIs for web browsers: REST clients as antipattern
-description: How to quickly assess the REST level of an API
+description: Some lessons about needing RESET client libraries on a web browser
 layout: post
 author: Hypr
 twitter: hyprnz
 genre: API
 keywords: humble browser hypermedia API
 ---
+
 
 There is a current anti-pattern occurring in implementing hypermedia APIs. That “REST” clients must be coded into the browser—for example, as a plugin specific to the media type. It’s an optimisation (and optimisations are needed but not as the baseline). The anti-pattern is not the client per se but rather the server. The client needs to compensate for the server not being RESTful—so you put “more REST” into the client. Based on this insight, the generic browser is therefore a perfect client to start measuring the REST level of the server that the API wants to support. If that is all perfectly clear go see our top ten practical ways to measure how well your API is going. Otherwise, let expand out a little more.
 
