@@ -29,10 +29,10 @@ See below on how to read this:
 
 Set the request headers and render the JSON content clickable by:
 
-| Browser  | Headers     | JSON renderer       |
-| -------- |:-----------:| -------------------:|
-| Firefox  | [Modify Header Value](^1) (you can do it in about:config but it is tedious) | [JSONView](^2) |
-| Chrome   | [ModHeaders](^3) | [JSONView](^4) |   
+Browser  | Headers     | JSON renderer   
+-------- |:-----------:| -------------
+Firefox  | [Modify Header Value](^1) (you can do it in about:config but it is tedious) | [JSONView](^2)
+Chrome   | [ModHeaders](^3) | [JSONView](^4)   
 
 **Note:**
 
