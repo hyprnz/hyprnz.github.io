@@ -8,7 +8,7 @@ genre: API
 keywords: humble browser hypermedia
 ---
 
-# Setting up the browser for a hypermedia API
+## Setting up the browser for a hypermedia API
 
 This blog outlines the information for setting up content negotiation between the browser and the server for viewing JSON (ATOM-like) representations of the network of data and also for (create and edit) forms in html. Between these two, we can use the humble browser as the first client of the network of data. 
 
@@ -19,13 +19,13 @@ Basic steps:
 * Install addons required for your browsers of choice
 * Set the Accept header for each browser that will explore the network of data
 
-## Our accept header
+### Our accept header
 
 See below on how to read this:
 
 > `*/*;q=0.8,application/xml;q=0.9,application/json;q=0.95,text/html;q=1.0`
 
-## Addons Required
+### Addons Required
 
 Set the request headers and render the JSON content clickable by:
 
