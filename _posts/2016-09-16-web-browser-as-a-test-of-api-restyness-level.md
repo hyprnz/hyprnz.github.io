@@ -8,8 +8,6 @@ genre: API
 keywords: humble browser hypermedia API
 ---
 
-## Web browser as a test of API RESTy-ness level
-
 I have made the argument that we should be able to explore our API using a humble browser. Our criteria for this is below. First setup your browser of choice with headers and a renderer for the API. I use both Firefox and Chrome. Unfortunately, they both still need tweeks! 
 
 To test these we use browser plugins for specialising content negotiation.
