@@ -1,5 +1,5 @@
 ---
-title: Implementing hypermedia APIs for web browsers: “REST” clients as antipattern
+title: Implementing hypermedia APIs for web browsers: REST clients as antipattern
 description: How to quickly assess the REST level of an API
 layout: post
 author: Hypr
