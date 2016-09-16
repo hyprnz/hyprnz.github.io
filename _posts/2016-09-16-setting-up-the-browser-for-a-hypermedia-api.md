@@ -30,9 +30,10 @@ See below on how to read this:
 Set the request headers and render the JSON content clickable by:
 
 Browser  | Headers     | JSON renderer 
--------- |-------------| -------------
-Firefox  | [Modify Header Value (HTTP Headers)](https://addons.mozilla.org/en-US/firefox/addon/modify-header-value/) | [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/) 
+-------- |:-----------:| -------------
+Firefox  | [Modify Header Value](https://addons.mozilla.org/en-US/firefox/addon/modify-header-value/) | [JSONView](https://addons.mozilla.org/en-us/firefox/addon/jsonview/) 
 Chrome   | [ModHeaders](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en)  |   [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)   
+
 
 **Note:**
 
