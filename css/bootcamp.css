@@ -339,6 +339,10 @@ UNUSED.highlight-blue, article#article .article-text h4, article#article .articl
     color: #fcc044
 }
 
+.grey-text {
+    color: #7b98a1;
+}
+
 iframe[name="google_conversion_frame"] {
     display: none
 }
