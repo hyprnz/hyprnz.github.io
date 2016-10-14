@@ -162,6 +162,10 @@ hr {
     background-color: #fcc044
 }
 
+.header-blue {
+    background-color: #d6e7ec
+}
+
 .highlight, UNUSEDarticle#article .article-text h4, UNUSEDarticle#article .article-text h5, UNUSEDarticle#article .article-text del {
     letter-spacing: 0.6px;
     padding: 6px 0;
