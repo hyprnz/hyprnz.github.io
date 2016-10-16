@@ -32,12 +32,8 @@ html {
     box-sizing: border-box
 }
 
-*, UNUSED *::after, UNUSED *::before {
+* {
     box-sizing: inherit
-}
-
-*, *::after, *::before {
-    box-sizing: inherit;
 }
 
 @font-face {
@@ -166,14 +162,14 @@ hr {
     background-color: #d6e7ec
 }
 
-.highlight, UNUSEDarticle#article .article-text h4, UNUSEDarticle#article .article-text h5, UNUSEDarticle#article .article-text del {
+.highlight, del {
     letter-spacing: 0.6px;
     padding: 6px 0;
     margin-left: 6px;
     margin-right: 6px
 }
 
-UNUSED.highlight-blue, article#article .article-text h4, article#article .article-text del {
+article#article .article-text h4, article#article .article-text del {
     background: #17a3dd;
     box-shadow: 6px 0 0 #17a3dd, -6px 0 0 #17a3dd;
     color: #fff
@@ -457,7 +453,7 @@ body {
     }
 }
 
-.main-nav .nav-menu > li:hover > a, .main-nav .nav-menu > li a:hover, .main-nav .nav-menu > li:focus > a, UNUSED.main-nav .nav-menu > li.open > a {
+.main-nav .nav-menu > li:hover > a, .main-nav .nav-menu > li a:hover, .main-nav .nav-menu > li:focus > a {
     font-weight: 800
 }
 
@@ -481,7 +477,7 @@ body {
     color: #263648
 }
 
-UNUSED.main-nav .nav-menu > li.open > ul, .main-nav .nav-menu > li:focus > ul {
+.main-nav .nav-menu > li:focus > ul {
     max-height: 400px;
     bottom: -15px;
     transition: all 500ms linear
@@ -633,10 +629,6 @@ UNUSED.main-nav .nav-menu > li.open > ul, .main-nav .nav-menu > li:focus > ul {
         -webkit-transform: scale(1.1);
         transform: scale(1.1)
     }
-}
-
-UNUSED#video-container.play .content, UNUSED#video-container.play .header-video__teaser-video {
-    display: none
 }
 
 @media screen and (min-width: 480px) {
@@ -1277,29 +1269,23 @@ UNUSED#video-container.play .content, UNUSED#video-container.play .header-video_
     }
 }
 
-nav#side-bar .side-nav.red .nav-content ul li:hover, UNUSEDnav#side-bar .side-nav.red .main-side-nav li.active {
+nav#side-bar .side-nav.red .nav-content ul li:hover {
     background-color: #be3231
 }
 
-nav#side-bar .side-nav.red .nav-content ul li:hover a, UNUSEDnav#side-bar .side-nav.red .main-side-nav li.active a {
+nav#side-bar .side-nav.red .nav-content ul li:hover a,  {
     font-weight: 800
 }
 
-UNUSEDnav#side-bar .side-nav.red li a, UNUSEDnav#side-bar .side-nav.red div {
-    color: #fff
-}
 
-nav#side-bar .side-nav.grey .main-side-nav li:hover, UNUSEDnav#side-bar .side-nav.grey .main-side-nav li.active {
+
+nav#side-bar .side-nav.grey .main-side-nav li:hover {
     background-color: #bababa
 }
 
-nav#side-bar .side-nav.grey .main-side-nav li:hover a, UNUSEDnav#side-bar .side-nav.grey .main-side-nav li.active a {
+nav#side-bar .side-nav.grey .main-side-nav li:hover a {
     font-weight: 800;
     color: #fff
-}
-
-UNUSEDnav#side-bar .side-nav.grey a, UNUSEDnav#side-bar .side-nav.grey div {
-    color: #404041
 }
 
 @media screen and (min-width: 768px) {
@@ -1318,14 +1304,6 @@ UNUSEDnav#side-bar .side-nav.grey a, UNUSEDnav#side-bar .side-nav.grey div {
     section#calendar .date {
         display: block
     }
-}
-
-UNUSEDsection#calendar .date .month, UNUSEDsection#calendar .date .day {
-    text-transform: uppercase;
-    margin: 0;
-    display: block;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased
 }
 
 section#calendar .date .day {
@@ -1526,19 +1504,6 @@ section.staff-profiles li:nth-child(n) {
     }
 }
 
-UNUSEDsection.staff-profiles li div.description, UNUSEDsection.staff-profiles li .name, UNUSEDsection.staff-profiles li .location {
-    margin: 0;
-    font-family: "proxima-nova";
-    line-height: 1.71em;
-    -webkit-font-smoothing: antialiased;
-    color: #666666;
-    text-align: left
-}
-
-UNUSEDsection.staff-profiles li div.description.description, UNUSEDsection.staff-profiles li .name.description, UNUSEDsection.staff-profiles li .location.description {
-    font-size: 16px
-}
-
 @media screen and (min-width: 618px) {
     section.staff-profiles li div.description.description, section.staff-profiles li .name.description, section.staff-profiles li .location.description {
         font-size: 16px;
@@ -1567,18 +1532,6 @@ UNUSEDsection.staff-profiles li div.description.description, UNUSEDsection.staff
     }
 }
 
-UNUSEDsection.staff-profiles li div.description.name, UNUSEDsection.staff-profiles li .name.name, UNUSEDsection.staff-profiles li .location.name {
-    font-weight: 800;
-    font-size: 19px;
-    line-height: 28px
-}
-
-UNUSEDsection.staff-profiles li div.description.location, UNUSEDsection.staff-profiles li .name.location, UNUSEDsection.staff-profiles li .location.location {
-    margin-bottom: 15px;
-    font-size: 18px;
-    line-height: 14px
-}
-
 @media screen and (min-width: 618px) {
     section.staff-profiles li div.description.location, section.staff-profiles li .name.location, section.staff-profiles li .location.location {
         font-size: 16px
@@ -1590,9 +1543,6 @@ section.staff-profiles li .location {
     line-height: 19px
 }
 
-UNUSEDsection.staff-profiles.course-profiles h2, UNUSEDsection.staff-profiles.course-profiles p, UNUSEDsection.staff-profiles.course-profiles span.trashhand {
-    text-align: center
-}
 
 section.staff-profiles.course-profiles span.trashhand {
     font-size: 0.9em;
@@ -1823,7 +1773,7 @@ section#filter li a#filter-all-categories:before, section#filter li a#filter-faq
     }
 }
 
-section#video-feature .vd-ft-text-container h1, UNUSEDsection#video-feature .vd-ft-text-container p, section#video-feature .vd-ft-text-container span {
+section#video-feature .vd-ft-text-container h1, section#video-feature .vd-ft-text-container span {
     color: #fff;
     text-align: center
 }
@@ -1842,9 +1792,6 @@ section#video-feature .vd-ft-text-container h1 {
     }
 }
 
-UNUSEDsection#video-feature .vd-ft-video .slick-list, UNUSEDsection#video-feature .vd-ft-video .slick-track {
-    height: 100%
-}
 
 @media screen and (min-width: 618px) {
     section#video-feature .vd-ft-video video {
@@ -2070,15 +2017,6 @@ section .slider-controls ul.slick-dots[role=tablist] .slick-active button {
     }
 }
 
-UNUSEDsection#timeline .row .image-right, UNUSEDsection#timeline .row .image-left {
-    display: none;
-    height: 280
-}
-
-UNUSEDsection#timeline .row .image-right img, UNUSEDsection#timeline .row .image-left img {
-    width: 100%
-}
-
 @media screen and (min-width: 618px) {
     section#timeline .row .image-right, section#timeline .row .image-left {
         display: inline;
@@ -2172,11 +2110,6 @@ section.faq .accordion a:hover {
     border-bottom: 1px solid #17a3dd
 }
 
-UNUSEDsection.faq .accordion h1, UNUSEDsection.faq .accordion h2 {
-    color: #404041;
-    margin-bottom: 0
-}
-
 section.faq .accordion ul.questions > li:hover .question {
     color: #17a3dd
 }
@@ -2232,13 +2165,6 @@ section.faq .accordion ul.questions > li:hover .question::before {
     }
 }
 
-UNUSEDsection#employer-form div, UNUSEDsection#employer-form li {
-    font-size: 16px;
-    font-family: "proxima-nova";
-    line-height: 1.71em;
-    -webkit-font-smoothing: antialiased;
-    color: #666666
-}
 
 @media screen and (min-width: 480px) {
     section#employer-form .row .app-2-col {
@@ -2340,7 +2266,7 @@ div.wizard-nav ul li.active:after {
     margin-left: 2px
 }
 
-UNUSEDdiv.wizard-nav ul a, div.wizard-nav ul li {
+div.wizard-nav ul li {
     font-size: 16px;
     font-family: "proxima-nova";
     line-height: 1.71em;
@@ -2837,10 +2763,6 @@ section#financing-admissions .half:nth-of-type(2) {
     }
 }
 
-UNUSEDsection#apart p, UNUSEDsection#apart h3 {
-    text-align: center
-}
-
 @media screen and (min-width: 768px) {
     section#apart p, section#apart h3 {
         text-align: left
@@ -3217,10 +3139,6 @@ section#locations a:hover {
     }
 }
 
-UNUSEDsection#locations .main-locations .location div.city, UNUSEDsection#locations .main-locations .location div span {
-    font-weight: 800
-}
-
 section#locations .main-locations .location div.city {
     margin-top: 15px
 }
@@ -3365,7 +3283,7 @@ section#contact-form input[type="submit"] {
     }
 }
 
-UNUSED#community-calendar, section.staff-profiles {
+section.staff-profiles {
     padding-left: 15px;
     padding-right: 15px
 }
@@ -3427,11 +3345,7 @@ UNUSED#community-calendar, section.staff-profiles {
     }
 }
 
-UNUSEDsection#location-header div.intro div.location, UNUSEDsection#location-header div.intro div.phone {
-    font-weight: 800
-}
-
-section#location-header div.intro div.location, UNUSEDsection#location-header div.intro div.llh {
+section#location-header div.intro div.location {
     display: inline
 }
 
@@ -3447,26 +3361,11 @@ section#location-header div.intro div.location, UNUSEDsection#location-header di
     }
 }
 
-UNUSEDsection#application-header h2, UNUSEDsection#application-header h4 {
-    text-align: center
-}
 
 @media screen and (min-width: 768px) {
     section#application-form .form-container {
         padding: 0
     }
-}
-
-UNUSEDsection#application-form .form-container .item div, UNUSEDsection#application-form .form-container .item li {
-    font-size: 16px;
-    font-family: "proxima-nova";
-    line-height: 1.71em;
-    -webkit-font-smoothing: antialiased;
-    color: #666666
-}
-
-UNUSEDsection#application-form .form-container .item div .description, UNUSEDsection#application-form .form-container .item li .description {
-    color: #17a3dd
 }
 
 section#application-form .form-container .item input[type="radio"]:checked + label {
@@ -3553,14 +3452,6 @@ section#application-form section#item-one .row.text-row:nth-of-type(2) {
         width: 47%;
         float: left
     }
-}
-
-UNUSEDsection#application-form section#item-one .row.pick-date .app-group.start-dates .weekday, UNUSEDsection#application-form section#item-one .row.pick-date .app-group.start-dates .notes {
-    font-size: 14px
-}
-
-UNUSEDsection#application-form section#item-one .row.pick-date .app-group.start-dates .weekday .emoji, UNUSEDsection#application-form section#item-one .row.pick-date .app-group.start-dates .notes .emoji {
-    font-size: 1.75rem
 }
 
 @media screen and (min-width: 618px) {
