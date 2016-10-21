@@ -159,7 +159,7 @@ hr {
 }
 
 .header-blue {
-    background-color: #d6e7ec
+    background-color: #17a3dd
 }
 
 .highlight, del {
@@ -2042,6 +2042,105 @@ section .slider-controls ul.slick-dots[role=tablist] .slick-active button {
         margin-top: 25px
     }
 }
+
+section#ourresults h1 span.trashhand {
+    font-family: "trashhand";
+    -webkit-font-smoothing: antialiased;
+    font-size: 4em;
+    letter-spacing: 2px;
+    color: #404041;
+}
+
+section#ourresults p span.trashhand {
+    font-family: "trashhand";
+    -webkit-font-smoothing: antialiased;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #404041;
+}
+
+section#ourresults hr {
+    width: 90%
+}
+
+section#ourresults hr.growth {
+    border: 0px;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 70%
+}
+
+section#ourresults hr.separator {
+    border-top:5px dashed grey;
+    color:#fff;
+    background-color:#fff;
+    height:100px;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 480px) {
+    section#ourresults .result {
+        font-size: 1.8em;
+        line-height: 1.2em
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .ourresults-column {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+        height: 100%
+    }
+
+    section#ourresults .row .ourresults-column:last-child {
+        margin-right: 0
+    }
+}
+
+@media screen and (min-width: 768px) {
+    section#ourresults .row .ourresults-column::before {
+        margin-top: 15px
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .text-right {
+        padding-right: 10px;
+        text-align: right
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .text-left {
+        padding-left: 10px
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .image-right {
+        float: right;
+        padding-left: 25px;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .image-left {
+        padding: 0 10px;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .image-right, section#ourresults .row .image-left {
+        margin-bottom: 0px
+    }
+}
+
 
 section.half-accordion li {
     border-bottom: 1px solid #666666
