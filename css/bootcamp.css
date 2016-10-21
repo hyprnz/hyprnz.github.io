@@ -2046,7 +2046,7 @@ section .slider-controls ul.slick-dots[role=tablist] .slick-active button {
 section#ourresults h1 span.trashhand {
     font-family: "trashhand";
     -webkit-font-smoothing: antialiased;
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 2px;
     color: #404041;
 }
@@ -2059,10 +2059,6 @@ section#ourresults p span.trashhand {
     color: #404041;
 }
 
-section#ourresults hr {
-    width: 90%
-}
-
 section#ourresults hr.growth {
     border: 0px;
     border-bottom: 1px solid #CCCCCC;
@@ -2072,11 +2068,11 @@ section#ourresults hr.growth {
 }
 
 section#ourresults hr.separator {
-    border-top:5px dashed grey;
+    border-top:5px dashed #f3f1f0;
     color:#fff;
     background-color:#fff;
-    height:100px;
-    width: 100%;
+    height:50px;
+    width: 70%;
 }
 
 
