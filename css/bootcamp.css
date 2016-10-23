@@ -196,7 +196,7 @@ article#article .article-text h4, article#article .article-text del {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 40.29137%;
+        width: 35%;
         display: table-cell;
         vertical-align: middle;
         float: none
@@ -212,7 +212,7 @@ article#article .article-text h4, article#article .article-text del {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 57.35098%;
+        width: 65%;
         display: table-cell;
         vertical-align: middle;
         float: none
@@ -3643,15 +3643,61 @@ section#item-two input[type="submit"] {
     }
 }
 
+.testimonial-container {
+    background-color: #f3f1f0;
+    margin: 10%;
+}
+
+
 .testimonial-container .testimonial-text {
     width: 100%;
     display: table;
+    padding: 5%;
     height: 80%;
-    quotes: "“" "”" "“" "”";
 }
 
 @media screen and (min-width: 618px) {
     .testimonial-container .testimonial-text {
-        width: 62.5%;
+        width: 90%;
     }
+}
+
+.testimonial-text h3.trashhand  {
+    font-family: 'trashhand';
+    font-size: 2em;
+    margin: 10%
+}
+
+.testimonial-text blockquote {
+    font-size: 18px;
+    font-style: italic;
+    width: 120%;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+.testimonial-text blockquote:before {
+    font-family: Georgia, serif;
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+.testimonial-text blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.testimonial-text blockquote cite:before {
+    content: "\2014 \2009";
 }
