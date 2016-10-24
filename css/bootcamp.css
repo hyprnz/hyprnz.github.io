@@ -2043,12 +2043,14 @@ section .slider-controls ul.slick-dots[role=tablist] .slick-active button {
     }
 }
 
+
 section#ourresults h1 span.trashhand {
     font-family: "trashhand";
     -webkit-font-smoothing: antialiased;
     font-size: 3em;
     letter-spacing: 2px;
     color: #404041;
+    vertical-align: middle;
 }
 
 section#ourresults p span.trashhand {
@@ -2057,6 +2059,8 @@ section#ourresults p span.trashhand {
     font-size: 2em;
     letter-spacing: 2px;
     color: #404041;
+
+    vertical-align: middle;
 }
 
 section#ourresults hr.growth {
@@ -2075,20 +2079,13 @@ section#ourresults hr.separator {
     width: 70%;
 }
 
-@media screen and (min-width: 480px) {
-    section#ourresults .result {
-        font-size: 1.8em;
-        line-height: 1.2em
-    }
-}
-
 @media screen and (min-width: 618px) {
     section#ourresults .row .ourresults-column {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 48.82117%;
-        height: 100%
+        height: 100%;
     }
 
     section#ourresults .row .ourresults-column:last-child {
@@ -2099,6 +2096,13 @@ section#ourresults hr.separator {
 @media screen and (min-width: 768px) {
     section#ourresults .row .ourresults-column::before {
         margin-top: 15px
+    }
+}
+
+@media screen and (min-width: 480px) {
+    section#ourresults .result {
+        font-size: 1.8em;
+        line-height: 1.2em
     }
 }
 
@@ -2118,15 +2122,18 @@ section#ourresults hr.separator {
 @media screen and (min-width: 618px) {
     section#ourresults .row .image-right {
         float: right;
-        padding-left: 25px;
-        text-align: center
+        padding-left: 0px;
+        vertical-align: middle;
+        width: 20%
     }
 }
 
 @media screen and (min-width: 618px) {
     section#ourresults .row .image-left {
         padding: 0 10px;
-        text-align: center
+        padding-right: 0px;
+        vertical-align: middle;
+        width: 20%
     }
 }
 
@@ -2140,10 +2147,10 @@ section#ourresults .ourresults-image {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 20%;
+    /*width: 20%;*/
     margin: -10px 0;
-    /*padding-right: 13px;*/
-    min-width: 50px
+    padding-right: 13px;
+    min-width: 60px
 }
 
 @media screen and (min-width: 768px) {
@@ -2155,6 +2162,50 @@ section#ourresults .ourresults-image {
     }
 
     section#ourresults .ourresults-image:last-child {
+        margin-right: 0
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .metric-right {
+        float: right;
+        padding-left: 25px;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .metric-left {
+        padding: 0 10px;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 618px) {
+    section#ourresults .row .metric-right, section#ourresults .row .metric-left {
+        margin-bottom: 0px
+    }
+}
+
+section#ourresults .ourresults-metric {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 20%;
+    margin: -10px 0;
+    /*padding-right: 13px;*/
+    min-width: 50px
+}
+
+@media screen and (min-width: 768px) {
+    section#ourresults .ourresults-metric {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 30%
+    }
+
+    section#ourresults .ourresults-metric:last-child {
         margin-right: 0
     }
 }
