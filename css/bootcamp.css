@@ -1389,7 +1389,7 @@ section#calendar .register:after {
 }
 
 .accordion > ul > li .details {
-    display: none;
+    /*display: none;*/
     font-size: 16px;
     font-family: "proxima-nova";
     line-height: 1.71em;
@@ -2283,6 +2283,14 @@ section.faq .accordion ul.questions > li:hover .question {
 
 section.faq .accordion ul.questions > li:hover .question::before {
     background-position-y: 20px
+}
+
+.accordion>ul>li .details p {
+    margin: 0 auto 10px auto;
+}
+
+section.faq .accordion ul {
+    list-style-type: disc;
 }
 
 @media screen and (min-width: 480px) {

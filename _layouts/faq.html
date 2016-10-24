@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    {% include meta.html %}
+
+    <title>{{ page.title }} — Hypr Innovation Ltd</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+</head>
+
+<body class="">
+
+{% include navigation-extended.html %}
+
+<div class="simple-header header-greyblue"><h1>{{ page.title }}</h1></div>
+
+<section class="wrap chars">
+    <div class="content-header center-align">
+        <h2>General questions about <span class="yellow-text">Bootcamp</span>.</h2>
+
+    </div>
+</section>
+
+<section class="faq wrap" id="bootcamp">
+
+    <div class="accordion">
+
+
+        <ul class="questions">
+
+            {% for faq in site.data.faq %}
+            <li>
+                <p class="question">{{ faq.question}}</p>
+                <div class="details"><p>{{ faq.answer }}</p></div>
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+
+
+</section>
+
+{% include analytics.html %}
+
+</body>
+</html>

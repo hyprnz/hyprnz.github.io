@@ -1,0 +1,34 @@
+[
+  {
+    "question": "How do “right-scale” steps work?",
+    "answer": "We are essentially simplifying everything to make it understandable and evolvable required for the customer demand profile. We do this in the code base and technical system; we also do for the product planning and execution through making process visible and transparent so that everyone knows how to contribute to the flow of work. Simplification to the next right-scale is so that you don’t need to throw more people at it. When you do, though, you will proportionally throw fewer people at it as a ratio of demand."
+  },
+  {
+    "question": "What does it cost for a step?",
+    "answer": "We work in 2-3 month increments with 2-3 people in the team. The team includes technologist and product folk. Practically speaking, you are looking at $65-90K per month up to a total 250-300K budget per step."
+  },
+  {
+    "question": "How many steps will we need?",
+    "answer": "Some clients only require only one step. Other clients require 3-6 steps. Our goal is always to leave as quickly as possible! "
+  },
+  {
+    "question": "What do you need from us?",
+    "answer": "We need to you to be open to trying new approaches. We often find that people are too busy to change and too busy to improve. This is the most common crippling problem. Instead, we ask you to split your work between everyday work and making the transition with us."
+  },
+  {
+    "question": "How do we keep delivering at the same time?",
+    "answer": "Delivery is always about trade-offs–there is always more to build than possible–and this is no different. In fact, we are asking you to make big trade-offs and tough calls in that period. Because it is hard to negotiate with too many people, we look to ensure that planning is transparent and provides everyone with the right level of information at the right time with the right people making the decisions. We think at point, you can make the tough calls that have focus and balance"
+  },
+  {
+    "question": "What happens when you leave?",
+    "answer": "You’ll laugh here. We are preparing to leave as we start. Because we want you to engage from the start, people transition with us. So leaving is merely shift in numbers over time–there’s no grand handover.  "
+  },
+  {
+    "question": "Do you do product strategy?",
+    "answer": "Nope. We work with your great domain experts. We know that we’ll never know your business like you. We work with them to help execute."
+  },
+  {
+    "question": "Do you do technical innovation?",
+    "answer": "Again, nope. If you have a business that does have technical innovation then we know that will have been hard won. We have made technical innovations in previous lives and know that’s not what we are here for. We here to support those innovations finding customers at scale."
+  }
+]
