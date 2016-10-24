@@ -30,5 +30,15 @@
     "outcome": "We delivered an approach which in the first instance was faster and cheaper, and in no way perfect but very workable. It was, importantly, more reliable and did not introduce unseen errors. We saw an 8-times speed improvement to onboard new customers dropping from 50 hours down to 6 hours per customer.",
     "testimonial": "We needed to start onboarding new customers fast and now! Without this, we simply wouldn’t have got there—I can see that now.",
     "cite": "CTO"
+  },
+  {
+    "title": "Generic hosting approach to reduce costs and vendor lock-in",
+    "situation": "The startup’s hosting costs were steadily increasing and often unpredictable—particular as the solution was requiring more 'grunt' to scale to larger customers. They were also finding that because they were using technologies and approaches specific to the vendor they were increasingly getting vendor lock-in thereby reducing their options.",
+    "approach": "We took an approach that the solution that found that it was best to have a mix of public and private hosting. We removed all vendor specific technologies such that we could deploy to both public and private cloud. We then installed on-site private cloud infrastructure and also changed one of the public cloud providers that had the correct pricing structure for the performance we required.",
+    "outcome": "The hosting costs have reduced by 50% month-on-month and the new in-house infrastructure had a payback period of three months. The private hosting allows zero-cost, immediate creation of new development capacity as required. The public hosting increases only at a cost-effective proportion of the rate of customer increases.",
+    "testimonial": "We are actually back in control of our hosting. I know how much I spend and where my levers are. I really didn’t realise how I was spending my money.",
+    "cite": "COO"
   }
+
+
 ]
