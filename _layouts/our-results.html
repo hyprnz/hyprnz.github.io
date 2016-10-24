@@ -2,31 +2,23 @@
 
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Our results - Hypr Innovation Ltd</title>
+
+    {% include meta.html %}
+
+    <title>{{ page.title }} - Hypr Innovation Ltd</title>
 
     <link rel="stylesheet" type="text/css" href="/css/common.css"/>
     <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
     <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
 
-    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootcamp.css"/>
 </head>
 
 <body class="">
 
-<div class="navigation">
-    <div class="top-nav-collapse">
-        <span class="navbar-hypr"><a href="https://hypr.nz">HYPR</a></span>
-        <ul>
-            <li><a href="/thoughts">Thoughts</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/">Home</a></li>
-        </ul>
-    </div>
-</div>
+{% include navigation-extended.html %}
 
-
-<div class="simple-header header-blue"><h1>Our results</h1></div>
+<div class="simple-header header-blue"><h1>{{ page. title }}</h1></div>
 
 <section class="wrap chars">
     <div class="content-header center-align">
@@ -44,7 +36,7 @@
             </div>
             <div class="ourresults-column text text-left">
                 <div class="ourresults-image image-right">
-                    <img alt="increased speed" src="./images/startup.svg">
+                    <img alt="increased speed" src="../images/startup.svg">
                 </div>
                 <p class="result">Increase in delivery speed to onboard clients</p>
             </div>
@@ -59,7 +51,7 @@
             </div>
             <div class="ourresults-column text text-right">
                 <div class="ourresults-image image-left">
-                    <img alt="increased productivity" src="./images/teamwork.svg">
+                    <img alt="increased productivity" src="../images/teamwork.svg">
                 </div>
                 <p class="result">Increase in developer productivity</p>
             </div>
@@ -75,7 +67,7 @@
             </div>
             <div class="ourresults-column text text-left">
                 <div class="ourresults-image image-right">
-                    <img alt="decreased costs" src="./images/server.svg">
+                    <img alt="decreased costs" src="../images/server.svg">
                 </div>
                 <p class="result">Month-on-month reduction in hosting costs</p>
 
@@ -92,7 +84,7 @@
             </div>
             <div class="ourresults-column text text-right">
                 <div class="ourresults-image image-left">
-                    <img alt="increased ARR" src="./images/money.svg">
+                    <img alt="increased ARR" src="../images/money.svg">
                 </div>
                 <p class="result">Increase in annual recurring revenue</p>
             </div>
@@ -118,33 +110,8 @@
     </div>
 </section>
 
-<section class="wrap">
-    <div class="content-section">
-        <p>Icons made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor
-            Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a
-                href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC
-            3.0 BY</a>
-        <p>
-    </div>
-</section>
-
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-53992119-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
+{% include icon-attribution.html %}
+{% include analytics.html %}
 
 </body>
 </html>
