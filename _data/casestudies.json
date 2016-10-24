@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Scaling product performance",
+    "situation": "A startup going into a growth phase was starting to get complaints from existing customers about the speed of the product. To keep performance up, their hosting costs were soaring. The system was about to reach its limit with the next big customer.",
+    "approach": "We assessed the solution design to understand where load and latency problems occurred. We showed that there was no-one place that was the problem. Rather each small problem added up because fixes had been incrementally added throughout the system. The solution was to have a simple cohesive solution. We added monitoring and tests, shifted hosting with automated deployments, and most importantly showed how a single generic, rather than customised, approach to retrieving data is actually robust, faster and less intensive.",
+    "outcome": "We did not have to rewrite the system to get the desired performance at scale. Rather we made sure that by doing less, the performance goals were able to be met and that developers were also better able understand what the system does and evolve it to meet new customer demands.",
+    "testimonial": "Compared with this time last year, we are exponentially better because you showed us that simple works and scales!",
+    "cite": "Founder"
+  },
+  {
+    "title": "Enabling digital business & building capability",
+    "situation": "The company was struggling to release software and each release seemed to be slower and more expensive with the increase of customers. We assessed that the startup could not build software to meet customer demand without a build and deploy pipeline that the team uses and is in control of.",
+    "approach": "We reviewed the current technology stack and found that it was cumbersome and expensive and didn’t enable everyone to have a shared view. We then added new servers and virtualisation platform that would scale in performance and cost to meet development demands. We then added the best of breed tools to create a deployment pipeline appropriate to the team size that facilitated communication.",
+    "outcome": "By introducing the platform, it is possible to see what is being built, its rate and quality. The team also built the capability to tune cloud systems and deploy to them automatically and securely. The cost of the new platform was paid back in six months and they now have access to fast and cheap virtual machines.",
+    "testimonial": "The most amazing thing is you setup a transparent platform that has put us back in control!",
+    "cite": "CTO"
+  },
+  {
+    "title": "Speed to market",
+    "situation": "The business folk in the company were complaining because every time they asked Product Delivery when something would be done, they were told ‘two more weeks’. They’d ask again, and were told ‘two more weeks’! There was a new product being developed with a strategic partner and there were grave concerns about being able to meet the joint launch dates.",
+    "approach": "We created a ‘team of teams’ with the three groups involved in the next new product release. We planned together, synchronised the work often and sought regular feedback from the Product Team and from target customers. But most importantly, we focused on the highest value items first and ruthlessly traded-off scope to ensure that at the end of each iteration, we could give the Product Team the option to release if they thought they had enough to go to market.",
+    "outcome": "We delivered the Minimum Viable Product in time for the beta release and had the second releasable set of features in time for the market launch.",
+    "testimonial": "This is the best delivery I’ve seen in this place in 20 years!",
+    "cite": "Product Manager"
+  },
+  {
+    "title": "Onboarding new customers via an API",
+    "situation": "The startup’s new growth plan required the ability to onboard new customers in hours/days. The current capability took weeks and required developers. The goal is to build a scalable onboarding process balanced against all the other work that needed to be completed to meet the new customer demand.",
+    "approach": "We used a derivation of the an approach called a “strangler application”—rather than try and replace the current approach we wrapped the existing system such that both systems are operating at the same time. The new system was “API” that allows us to rapidly model the current system and provide new functionality without breaking the existing system. ",
+    "outcome": "We delivered an approach which in the first instance was faster and cheaper, and in no way perfect but very workable. It was, importantly, more reliable and did not introduce unseen errors. We saw an 8-times speed improvement to onboard new customers dropping from 50 hours down to 6 hours per customer.",
+    "testimonial": "We needed to start onboarding new customers fast and now! Without this, we simply wouldn’t have got there—I can see that now.",
+    "cite": "CTO"
+  }
+]

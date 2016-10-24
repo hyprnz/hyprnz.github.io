@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{{ page.title }} — Hypr Innovation Ltd</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+</head>
+
+<body class="">
+
+{% include navigation.html %}
+
+<div class="simple-header header-greyblue"><h1>{{ page.title }}</h1></div>
+
+
+<section class="wrap" id="casestudies">
+
+    {% for casestudy in site.data.casestudies %}
+    <div class="content-section">
+
+        <div class="two-thirds">
+            <h2>Case Study: <span class="blue-text">{{ casestudy.title }}</span></h2>
+
+            <h4>Situation</h4>
+            <p>{{ casestudy.situation }}</p>
+            <h4>Approach</h4>
+            <p>{{ casestudy.approach }}</p>
+            <h4>Outcome</h4>
+            <p>{{ casestudy.outcome }}</p>
+        </div>
+        <div class="one-third">
+            <div class="testimonial-container">
+                <div class="testimonial-text">
+                    <h3 class="trashhand">Testimonial</h3>
+
+                    <div class="texts">
+                        <blockquote>
+                            {{ casestudy.testimonial }}
+                            <cite>{{ casestudy.cite }}</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <hr/>
+
+    {% endfor %}
+
+</section>
+
+{% include icon-attribution.html %}
+{% include analytics.html %}
+
+</body>
+</html>
