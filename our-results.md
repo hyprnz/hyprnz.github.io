@@ -1,5 +1,5 @@
 ---
-title: OUr Results
+title: Our Results
 layout: our-results
 ---
 
