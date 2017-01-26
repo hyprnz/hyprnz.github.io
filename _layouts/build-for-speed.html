@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    {% include meta.html %}
+
+    <title>Hypr Innovation</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+</head>
+
+<body class="">
+
+{% include navigation-extended.html %}
+
+<div class="simple-header header-grey">
+    <h1>Build for Speed</h1>
+</div>
+
+<section class="wrap" id="overview">
+    <div class="content-section header-content center-align">
+        <h2>Overview</h2>
+        <hr/>
+        <p class="intro">Our clients need to <span class="highlight highlight-grey">accelerate their software development</span>
+            and speed up project delivery. With our help, they have increased throughput of sotware teams enabling them
+            to keep up with the changing needs of the business. Some of the issues they have tackled are improving
+            software architecture, managing technical debt and applying continuous delivery principles. Over the last
+            two years, we achieved:</p>
+    </div>
+    <div class="content-section grey">
+        <ul>
+            <li class="overview-block">
+                <h3><span class="trashhand">20+</span></h3>
+                <h4>clients</h4>
+            </li>
+            <li class="overview-block">
+                <h3><span class="trashhand">1</span></h3>
+                <h4>simple Improvement Model</h4>
+            </li>
+            <li class="overview-block">
+                <h3><span class="trashhand">2</span></h3>
+                <h4>days onsite</h4>
+            </li>
+            <li class="overview-block">
+                <h3><span class="trashhand">1</span></span></h3>
+                <h4>week turn around</h4>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+<section class="wrap half-accordion admissions-process">
+    <div class="content-section">
+        <div class="half">
+            <h2>Improvement Model<span class="blue-text">.</span></h2>
+            <p class="intro">The Improvement Model is designed to help NZ companies understand the state of their
+                <span class="highlight highlight-yellow">current software development practices</span>, with the aim of
+                identifying improvement opportunities.
+                These improvement opportunities aim to help software teams increase their efficiency and ultimately
+                deliver software at the speed of business.
+            </p>
+
+            <p class="intro">The improvement model primarily focuses on <span class="highlight highlight-grey">technical practices and architecture</span>
+                that
+                support both high quality and throughput without delays. However, other important aspects are taken into
+                consideration in this improvement model, including the mindset and values of people within the
+                organisation and how they contribute to higher performance.</p>
+
+            <p class="intro">
+                Each section (see across) contains a number of statements that can be answered yes, no or not
+                applicable. The answers are then aggregated in spider (or radar) chart (see below).
+                The improvement model attempts to provide an empirical relative tool to help organisations understand
+                their strengths and weaknesses and to <span class="highlight highlight-blue">learn through practical improvement opportunities</span>;
+                they do not
+                specify a learning path and they do not provide any sense of
+                certification.
+            </p>
+        </div>
+
+        <div class="half accordion expandable">
+            <ul>
+                <li class="active">
+                    <h4 class="question">Team</h4>
+                    <p class="details">This explores questions around team structure, communication, physical space and
+                        clear roles and alignment, pair working, t-shaped people and feature teams, and onboarding and
+                        training</p>
+                </li>
+                <li>
+                    <h4 class="question">Development Process</h4>
+                    <p class="details">This focuses on flow and product development.</p>
+                </li>
+                <li>
+                    <h4 class="question">Requirements and Planning</h4>
+                    <p class="details">This questions levels of planning and prioritisation, visible artefacts and
+                        collaborative planning.</p>
+                </li>
+                <li>
+                    <h4 class="question">Technical practices</h4>
+                    <p class="details">This looks to the code level, explores technical debt, as well as source control,
+                        branching and versioning and the general development eco system.</p>
+                </li>
+                <li>
+                    <h4 class="question">Quality</h4>
+                    <p class="details">This digs into practices of the test automation pyramid (microtesting,
+                        integration, acceptance, manual exporatory testing) and non-functional testing such as
+                        performance,
+                        security and integrity and topped off with usability.</p>
+                </li>
+                <li>
+                    <h4 class="question">Architecture</h4>
+                    <p class="details">This tends to focus in on coupling, modular design and dependency management and
+                        then the ability to scale this for people and systems.</p>
+                </li>
+                <li>
+                    <h4 class="question">Continuous Delivery</h4>
+                    <p class="details">This opens up the pipeline to look at distinctions made between build servers,
+                        continous integration and how it is managed through environment and the level of automation in
+                        deployments, as well as general release management.</p>
+                </li>
+                <li>
+                    <h4 class="question">Culture &amp; Learning</h4>
+                    <p class="details">This one is all about communication, learning and problems solving. </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script>
+        var acc = document.getElementsByClassName("question");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function () {
+                this.parentElement.classList.toggle("active");
+            }
+        }
+    </script>
+
+    <div class="content-header center-align">
+        <h2><span class="trashhand crisis">The quiet crisis</span>Some results.</h2>
+        <p class="intro">Our research suggests that most companies’ technology is performing at a 25-50% level—see the
+            char below. A few are in a class of their own, above 90%, with high business growth. So our aim is to help
+            companies with great ideas move from a mediocre to a high level of technical execution performance, so that
+            their business can accelerate.</p>
+        <img class="center-align" src="/assets/improvement-model.png" width="600px"/>
+    </div>
+</section>
+
+
+<section class="wrap grey" id="key-dates">
+    <div class="content-section">
+        <div class="half">
+            <h2>Approach<span class="blue-text">.</span></h2>
+            <p class="intro">
+                Build for Speed is for businesses who are experiencing or are expecting technical and capacity
+                challenges
+                with scaling their business. It is suitable for both small and large organisations. We adapt of our
+                approach to the specifics of your organisation. We look the <span class="highlight highlight-yellow">understand</span>
+                what works well and where improvements can be made; <span class="highlight highlight-grey">embed</span>
+                new practices and skills in the organisation; as well <span
+                    class="highlight highlight-blue">improve</span> cost efficiency and scalability.
+            </p>
+            <p class="intro">The program has two parts: Discovery and Deep Dive. Deep Dive ideally follows on from
+                Discovery and is optional.</p>
+            <h2>Our Team<span class="yellow-text">.</span></h2>
+            <p class="intro">We usually work in pairs. We tend to be able to pick more, quicker and clients find each of
+                us speaks little different about topics making it easier to digest.</p>
+            <h2>Partners<span class="lightgrey-text">.</span></h2>
+            <p class="intro">We are provide to offer these services in conjunction with <a
+                    href="http://www.callaghaninnovation.govt.nz/innovation-skills/build-speed" target="_blank">Callaghan
+                Innovation</a> as part of their innovation skills programme.</p>
+        </div>
+        <div class="half">
+            <div class="line"></div>
+            <ul>
+                <li>
+                    <h4>When to Start Talking</h4>
+                    <hr>
+                    <p><strong>2-8 weeks before you intend to start.</strong></p>
+                    <p>We recommend that you start early on discussions so that we can reach an agreement
+                        on how to proceed and give your team as much lead-time as possible.</p>
+                </li>
+                <li>
+                    <h4>Preparation</h4>
+                    <hr>
+                    <p><strong>1-2 weeks before you intend to start.</strong></p>
+                    <p>We send out an email to people participating introducing ourselves and asking them to do some
+                        preparation which gets sent back to us before arriving. For example, we get developers to give
+                        us a short example of a "smelly" piece of code and explain why.</p>
+                </li>
+                <li>
+                    <h4>Discovery</h4>
+                    <hr>
+                    <p><strong><span class="blue-text">Length: </span>1 week—with 2 days onsite</strong></p>
+                    <p>We have created an Improvement Model which is informative and light-weight based on where your
+                        business is
+                        and what it really needs. You can also use it to see where you might sit in relation to other
+                        companies that we have used the model on.</p>
+                    <p><strong>While onsite</strong> we to people about the code and systems. We are looking for areas
+                        of improvement that are relevant to the business. We create an improvement backlog and report.
+                        The backlog is presented and agreed on while onsite. </p>
+                    <br/>
+                    <p><strong>Before we leave</strong> we agree on an engagement plan consisting of raking, sizes,
+                        timeframes and metrics for success and failure to be addressed over the next 30/60/90 day plans.
+                    </p>
+                    <br/>
+                    <p><strong>In the following week</strong> we create a report for review and feedback. We're not
+                        finished until you return the report and are happy with the contents.</p>
+                </li>
+                <li>
+                    <h4>Deep Dive</h4>
+                    <hr>
+                    <p><strong><span class="blue-text">Length: </span>about 40 hours</strong></p>
+                    <p>Out of Discovery, you will have identified some key areas or ideas to incubate. Deep Dive is a
+                        chance to get in-house, hands-on help. We look to build your in-house capability thorugh the
+                        transfer of expertise from one of our people. It is surprising how clients all have specific
+                        needs, so we look forward to challenge you set us here!</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+{% include footer2.html %}
+
+</body>
+</html>
