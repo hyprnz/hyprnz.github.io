@@ -31,10 +31,16 @@
 
             <h4>Situation</h4>
             <p>{{ casestudy.situation }}</p>
-            <h4>Approach</h4>
-            <p>{{ casestudy.approach }}</p>
-            <h4>Outcome</h4>
-            <p>{{ casestudy.outcome }}</p>
+
+            <h4 class="read-more link arrow-after active">Read more</h4>
+
+            <div class="study">
+                <h4>Approach</h4>
+                <p>{{ casestudy.approach }}</p>
+                <h4>Outcome</h4>
+                <p>{{ casestudy.outcome }}</p>
+            </div>
+
         </div>
         <div class="one-third">
             <div class="testimonial-container">
@@ -57,6 +63,17 @@
     <hr/>
 
     {% endfor %}
+
+    <script>
+        var acc = document.getElementsByClassName("read-more");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function () {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle("active");
+            }
+        }
+    </script>
 
 </section>
 

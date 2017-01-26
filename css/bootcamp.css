@@ -4144,3 +4144,21 @@ h4.article-title a:hover {
 p.description {
     margin-top: 4px;
 }
+
+h4.link {
+    color: #666666;
+    cursor: hand;
+    cursor: pointer;
+}
+
+h4.link:hover {
+    color: #17a3dd;
+}
+
+.study, .link {
+    display: none;
+}
+
+.study.active, .link.active {
+    display: block;
+}
