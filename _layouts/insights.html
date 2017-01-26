@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+
+    {% include meta.html %}
+
+    <meta name="description"
+          content="We give our thinking on new ways of working that are fit for today’s world of digital disruption. Read more here...">
+
+    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Uncoded. Unleashed... Our Ramblings | HYPR, Auckland, NZ</title>
+</head>
+<body>
+{% include navigation-extended.html %}
+<div class="simple-header header-blue"><h1>Insights</h1></div>
+
+<section class="wrap">
+    <div class="content-section">
+        {% for post in site.posts %}
+        <div class="post-snippet">
+            <div>
+                <article itemscope itemtype="http://schema.org/BlogPosting">
+                    <h4 class="article-title" itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                    <hr/>
+                    <div class="article-details">
+                <span class="date-published">
+                    <time itemprop="datePublished">{{ post.date | date: "%-d %B %Y" }}</time> |
+                    <span class="posted-by" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">
+                            <a class="author link" itemprop="url" rel="author"
+                               href="https://twitter.com/{{post.twitter}}">{{ post.author }}</a>
+                        </span>
+                    </span>
+                </span>
+                    </div>
+                    <p class="description"> {{ post.excerpt }}</p>
+                    <a class="read-more link arrow-after" title="Read more" href="{{ post.url }}">Read more</a>
+                </article>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% include footer2.html %}
+</body>
+</html>

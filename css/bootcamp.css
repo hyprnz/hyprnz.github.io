@@ -4109,3 +4109,34 @@ h2 span.crisis {
     text-align: center;
     background-color: #ddd;
 }
+
+/* posts */
+
+.post-snippet {
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 1.571em;
+    color: #666666;
+    font-family: "proxima-nova";
+    font-style: normal;
+    text-transform: none;
+}
+
+h4.article-title {
+    font-size: 1.3em;
+    line-height: 1.371em;
+    color: #404041;
+    font-family: "proxima-nova";
+    font-style: normal;
+    text-transform: none;
+    font-weight: 800;
+    display: inline-block;
+    margin: 0;
+}
+h4.article-title a {
+    color: #404041;
+}
+
+p.description {
+    margin-top: 4px;
+}
