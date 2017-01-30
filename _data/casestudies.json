@@ -16,29 +16,19 @@
     "cite": "CTO"
   },
   {
-    "title": "Speed to market",
-    "situation": "The business folk in the company were complaining because every time they asked Product Delivery when something would be done, they were told ‘two more weeks’. They’d ask again, and were told ‘two more weeks’! There was a new product being developed with a strategic partner and there were grave concerns about being able to meet the joint launch dates.",
-    "approach": "We created a ‘team of teams’ with the three groups involved in the next new product release. We planned together, synchronised the work often and sought regular feedback from the Product Team and from target customers. But most importantly, we focused on the highest value items first and ruthlessly traded-off scope to ensure that at the end of each iteration, we could give the Product Team the option to release if they thought they had enough to go to market.",
-    "outcome": "We delivered the Minimum Viable Product in time for the beta release and had the second releasable set of features in time for the market launch.",
-    "testimonial": "This is the best delivery I’ve seen in this place in 20 years!",
-    "cite": "Product Manager"
-  },
-  {
     "title": "Onboarding new customers via an API",
     "situation": "The startup’s new growth plan required the ability to onboard new customers in hours/days. The current capability took weeks and required developers. The goal is to build a scalable onboarding process balanced against all the other work that needed to be completed to meet the new customer demand.",
-    "approach": "We used a derivation of the an approach called a “strangler application”—rather than try and replace the current approach we wrapped the existing system such that both systems are operating at the same time. The new system was “API” that allows us to rapidly model the current system and provide new functionality without breaking the existing system. ",
+    "approach": "We used a derivation of an approach called a “strangler application”—rather than try and replace the current approach we wrapped the existing system such that both systems are operating at the same time. The new system “API” allowed us to rapidly model the current system and provide new functionality without breaking the existing system. ",
     "outcome": "We delivered an approach which in the first instance was faster and cheaper, and in no way perfect but very workable. It was, importantly, more reliable and did not introduce unseen errors. We saw an 8-times speed improvement to onboard new customers dropping from 50 hours down to 6 hours per customer.",
     "testimonial": "We needed to start onboarding new customers fast and now! Without this, we simply wouldn’t have got there—I can see that now.",
     "cite": "CTO"
   },
   {
     "title": "Generic hosting approach to reduce costs and vendor lock-in",
-    "situation": "The startup’s hosting costs were steadily increasing and often unpredictable—particular as the solution was requiring more 'grunt' to scale to larger customers. They were also finding that because they were using technologies and approaches specific to the vendor they were increasingly getting vendor lock-in thereby reducing their options.",
-    "approach": "We took an approach that the solution that found that it was best to have a mix of public and private hosting. We removed all vendor specific technologies such that we could deploy to both public and private cloud. We then installed on-site private cloud infrastructure and also changed one of the public cloud providers that had the correct pricing structure for the performance we required.",
+    "situation": "The startup’s hosting costs were steadily increasing and often unpredictable—particularly as the solution was requiring more 'grunt' to scale to larger customers. They were also finding that because they were using technologies and approaches specific to the vendor they were increasingly getting vendor lock-in thereby reducing their options.",
+    "approach": "We took an approach that found that it was best to have a mix of public and private hosting. We removed all vendor specific technologies such that we could deploy to both public and private cloud. We then installed on-site private cloud infrastructure and also changed one of the public cloud providers that had the correct pricing structure for the performance we required.",
     "outcome": "The hosting costs have reduced by 50% month-on-month and the new in-house infrastructure had a payback period of three months. The private hosting allows zero-cost, immediate creation of new development capacity as required. The public hosting increases only at a cost-effective proportion of the rate of customer increases.",
     "testimonial": "We are actually back in control of our hosting. I know how much I spend and where my levers are. I really didn’t realise how I was spending my money.",
     "cite": "COO"
   }
-
-
 ]
