@@ -7,16 +7,12 @@
 
     <title>Hypr Innovation</title>
 
-    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
-
-    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
 </head>
 
 <body class="">
 
-{% include navigation-extended.html %}
+{% include navigation.html %}
 
 <div class="simple-header header-greyblue">
     <h1>80% less code</h1>
@@ -71,7 +67,7 @@
 </section>
 
 
-<div class="midpage-header align-center header-greyblue"><h1>Our Offerings</h1></div>
+<div class="midpage-header align-center header-greyblue" id="our-offerings"><h1>Our Offerings</h1></div>
 
 
 <section class="programs" id="offerings">
@@ -97,7 +93,7 @@
             </a>
         </li>
         <li class="program-block">
-            <a href="/scale-speed">
+            <a href="/scale-at-speed">
                 <img alt="aptitude to share" src="./images/group.svg">
                 <h4>Scale at Speed</h4>
                 <p><span class="trashhand">Amplify to keep pace with customer demand</span></p>
@@ -111,7 +107,8 @@
     </ul>
 </section>
 
-{% include footer2.html %}
+{% include footer.html %}
+{% include analytics.html %}
 
 </body>
 </html>

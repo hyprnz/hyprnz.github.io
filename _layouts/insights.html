@@ -8,18 +8,14 @@
     <meta name="description"
           content="We give our thinking on new ways of working that are fit for today’s world of digital disruption. Read more here...">
 
-    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
-
-    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Uncoded. Unleashed... Our Ramblings | HYPR, Auckland, NZ</title>
+    <title>Uncoded. Unleashed... Our Insights | Hypr, Auckland, NZ</title>
 </head>
 <body>
-{% include navigation-extended.html %}
+{% include navigation.html %}
 <div class="simple-header header-blue"><h1>Insights</h1></div>
 
 <section class="wrap">
@@ -35,14 +31,14 @@
                     <time itemprop="datePublished">{{ post.date | date: "%-d %B %Y" }}</time> |
                     <span class="posted-by" itemprop="author" itemscope itemtype="http://schema.org/Person">
                         <span itemprop="name">
-                            <a class="author link" itemprop="url" rel="author"
+                            <a class="author" itemprop="url" rel="author"
                                href="https://twitter.com/{{post.twitter}}">{{ post.author }}</a>
                         </span>
                     </span>
                 </span>
                     </div>
                     <p class="description"> {{ post.excerpt }}</p>
-                    <a class="read-more link arrow-after active" title="Read more" href="{{ post.url }}">Read more</a>
+                    <a class="read-more arrow-after" title="Read more" href="{{ post.url }}">Read more</a>
                 </article>
             </div>
         </div>
@@ -50,6 +46,8 @@
     </div>
 </section>
 
-{% include footer2.html %}
+{% include footer.html %}
+{% include analytics.html %}
+
 </body>
 </html>

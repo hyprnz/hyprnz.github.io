@@ -7,16 +7,12 @@
 
     <title>Hypr Innovation</title>
 
-    <link rel="stylesheet" type="text/css" href="/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/font-nexa-black.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/font-museo-sans-rounded-300.css"/>
-
-    <link rel="stylesheet" type="text/css" href="./css/bootcamp.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
 </head>
 
 <body class="">
 
-{% include navigation-extended.html %}
+{% include navigation.html %}
 
 <section class="simple-header header-blue">
     <h1>Our story</h1>
@@ -26,9 +22,6 @@
     <div class="content-header center-align">
         <h2>Who we are<span class="blue-text">.</span></h2>
         <hr/>
-
-    </div>
-    <div class="content-section">
         <p class="intro">At Hypr, we are a collective of experienced software professionals. We've worked in
             corporates and startups through to sale and failure; we've done ALL roles in the process between us, and
             we know how to work in and with teams. We are <span
@@ -36,8 +29,13 @@
             with an eye to the business. We know that it is critical to keep information flowing between the
             boardroom and the keyboard.
         </p>
-        <p class="intro">Our expertise:</p>
-        <ul class="list">
+    </div>
+</section>
+<section class="wrap grey">
+    <div class="content-header center-align">
+        <h2>Our expertise<span class="yellow-text">.</span></h2>
+        <hr/>
+        <ul class="list" style="text-align: left">
             <li><p class="intro list">Full-stack technologists</p></li>
             <li><p class="intro list">Flow of work—navigating the trade-offs between short, mid and long-term business
                 goals</p></li>
@@ -50,7 +48,7 @@
         </ul>
     </div>
 </section>
-<section class="wrap grey">
+<section class="wrap">
     </div>
     <div class="content-header center-align">
         <h2>What we do<span class="yellow-text">.</span></h2>
@@ -67,7 +65,7 @@
     </div>
 </section>
 
-<section class="wrap greg">
+<section class="wrap grey">
     <div class="content-header center-align">
         <h2>Our Values.</h2>
         <hr/>
@@ -99,7 +97,8 @@
     </ul>
 </div>
 
-{% include footer2.html %}
+{% include footer.html %}
+{% include analytics.html %}
 
 </body>
 </html>

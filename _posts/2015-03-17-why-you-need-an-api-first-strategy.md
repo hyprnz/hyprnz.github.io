@@ -10,13 +10,12 @@ keywords: API first, scalepocalypse, R&D lab, composability, private API, truste
 
 Digital disruption is here. One-third of Australia’s economy faces a [‘short fuse, big bang’](http://www2.deloitte.com/content/dam/Deloitte/au/Documents/Building%20Lucky%20Country/deloitte-au-consulting-digital-disruption-whitepaper-0912.pdf) scenario in the near future. Technology is shaping society as fast as society is shaping technology. Application Programming Interfaces (APIs) are emerging as a way to both support rapid change and as a way to create it. 
 
-## So what is an API? 
+### So what is an API? 
 
 An API enables one application to talk to another application over the internet.
 
 The term API has been around for a long time, although its most recent incarnation is arguably its most interesting. A modern API is a way to safely share digital resources to be consumed either internally, by trusted partners or through an open API. Exposing digital resources creates many more opportunities than exposing applications that have a single purpose thought up by a single company.
 
-## Why do you need an API strategy?
 
 ### The scalepocalypse is near!
 There are currently 15B internet connected devices in 2015, there will be [40B in 2020](http://www.slideshare.net/rnewton/scale-freeap-is).
