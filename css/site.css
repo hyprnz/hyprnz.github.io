@@ -318,6 +318,10 @@ hr {
     display: flex
 }
 
+.wrap {
+    display: block;
+}
+
 .content-section {
     width: 100%;
     max-width: 1150px;
@@ -1706,3 +1710,4 @@ article .by {
     color: #7b98a1;
     text-decoration: none;
 }
+
